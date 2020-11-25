@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>To Do List</title>
+		<link rel="stylesheet" type="text/css" href="ToDoList.css">
+	</head>
+	<body>
+
+		<div class="header">
+		<h2 style="margin:5px">Your To Do List</h2>
+		<input type="text" id="myInput" placeholder="Title...">
+		<button onclick="newElement()">Add Item</button>
+
+		<div id="display">
+			<ul id="myUL">
+				<li>add your task</li>
+				<li>add your task</li>
+				<script type="text/javascript">
+					listitems.forEach(DisplayList);
+				</script>
+				<li class="checked">add your task</li>
+			</ul>
+		</div>
+		<button type="button" id="clear-list" onclick="removeAll()">Clear All Items</button>
+
+
+		<script type="text/javascript" src="ToDoList.js"></script>
+	</body>
+</html>
+
+
